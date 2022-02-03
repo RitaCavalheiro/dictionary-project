@@ -5,12 +5,24 @@ import Dictionary from "./Dictionary";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">Be a sesquipedalian</header>
+      <header className="App-header">
+        <h1>Be a sesquipedalian</h1>
+      </header>
       <main>
         <Dictionary />
       </main>
       <footer>
-        <small>Open-source coded by Rita Cavalheiro</small>
+        <small>
+          <a
+            href="https://github.com/RitaCavalheiro/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+            className="gitLink"
+          >
+            Open-source
+          </a>{" "}
+          coded by Rita Cavalheiro
+        </small>
       </footer>
     </div>
   );

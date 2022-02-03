@@ -7,3 +7,12 @@ footer {
   text-align: center;
   margin: 30px 0;
 }
+
+.gitLink {
+  color: #86cebd;
+  text-decoration: none;
+}
+
+.gitLink:hover {
+  color: #70ad9e;
+}
