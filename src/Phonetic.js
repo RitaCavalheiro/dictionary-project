@@ -1,7 +1,7 @@
 import React from "react";
-import "./Phonetic.css";
 import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
+import "./Phonetic.css";
 
 export default function Phonetic(props) {
   console.log(props.phonetics);
