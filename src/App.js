@@ -5,11 +5,11 @@ import Dictionary from "./Dictionary";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header>
         <h1>Be a sesquipedalian</h1>
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="owl" />
       </main>
       <footer>
         <small>

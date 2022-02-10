@@ -1,0 +1,16 @@
+.Meaning h3 {
+  line-height: 1.5;
+}
+
+.Meaning .definition {
+  text-transform: capitalize;
+  padding-top: 8px;
+}
+
+.Meaning .example {
+  font-size: 16px;
+  padding-top: 4px;
+  opacity: 0.7;
+  text-transform: capitalize;
+  font-style: italic;
+}

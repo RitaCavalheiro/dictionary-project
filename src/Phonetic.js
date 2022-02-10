@@ -6,21 +6,20 @@ import "./Phonetic.css";
 export default function Phonetic(props) {
   console.log(props.phonetics);
   return (
-    <div className="Phonectics">
-      <div className="audio"></div>
+    <div className="Phonectics d-flex flex-row">
       <AudioPlayer
         src={props.phonetic.audio}
         customVolumeControls={[]}
         customAdditionalControls={[]}
         customProgressBarSection={[]}
-        style={{ width: "300px" }}
+        style={{ width: "80px" }}
         showJumpControls={false}
         showFilledProgress={false}
         showDownloadProgress={false}
         showSkipControls={false}
         layout="horizontal-reverse"
       />
-      <span>{props.phonetic.text}</span>
+      <span className="text">{props.phonetic.text}</span>
     </div>
   );
 }

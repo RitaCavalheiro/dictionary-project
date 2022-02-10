@@ -1,6 +1,11 @@
-.App-header {
+body {
+  background: #191919;
+  color: #fff;
+}
+
+header {
   text-align: center;
-  margin: 30px 0;
+  margin: 150px 0;
 }
 
 footer {
@@ -15,4 +20,10 @@ footer {
 
 .gitLink:hover {
   color: #70ad9e;
+}
+
+@media (max-width: 767px) {
+  header {
+    margin: 50px 0px;
+  }
 }

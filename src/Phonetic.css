@@ -1,5 +1,17 @@
 .rhap_container {
   box-shadow: none;
   align-items: center;
-  margin-left: 710px;
+  background: #2b2b2b;
+  color: #86cebd;
+  align-items: flex-start;
+  margin-left: -20px;
+}
+
+.rhap_container svg {
+  color: #86cebd;
+}
+
+span {
+  line-height: 3.5;
+  opacity: 0.6;
 }
