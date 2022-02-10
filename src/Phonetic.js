@@ -4,7 +4,6 @@ import "react-h5-audio-player/lib/styles.css";
 import "./Phonetic.css";
 
 export default function Phonetic(props) {
-  console.log(props.phonetics);
   return (
     <div className="Phonectics d-flex flex-row">
       <AudioPlayer
