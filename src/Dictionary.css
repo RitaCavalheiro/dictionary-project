@@ -5,6 +5,8 @@
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
   margin: 20px 150px;
   text-align: left;
+  position: relative;
+  z-index: 1;
 }
 
 .Dictionary input {
