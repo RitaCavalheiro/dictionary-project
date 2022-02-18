@@ -8,6 +8,7 @@ export default function Phonetic(props) {
     <div className="Phonectics d-flex flex-row">
       <AudioPlayer
         src={props.phonetic.audio}
+        autoPlay={false}
         customVolumeControls={[]}
         customAdditionalControls={[]}
         customProgressBarSection={[]}
