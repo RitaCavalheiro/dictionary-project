@@ -4,3 +4,9 @@
   height: 350px;
   margin: 0 auto;
 }
+
+@media (max-width: 767px) {
+  .owl {
+    width: 300px;
+  }
+}

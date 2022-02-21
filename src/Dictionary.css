@@ -27,6 +27,7 @@
 
 @media (max-width: 767px) {
   .Dictionary section {
-    margin: 20px 50px;
+    width: 100%;
+    margin: 0 20px;
   }
 }
